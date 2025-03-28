@@ -1,2 +1,2 @@
-# AI-Student-Assistant
-AI featured student assistent
+# AI-StudyMate
+TechStudent AI-Assistent

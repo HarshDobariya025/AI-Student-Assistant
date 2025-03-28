@@ -1,0 +1,88 @@
+.resume {
+    font-family: "Arial", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  
+  .resume-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .resume-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .resume-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.75rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    margin-right: 0.25rem;
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+  
+  .resume-section {
+    margin-bottom: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  .resume-item {
+    margin-bottom: 0.75rem;
+  }
+  
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-title {
+    font-weight: 600;
+  }
+  
+  .item-date {
+    font-size: 0.75rem;
+  }
+  
+  .item-subtitle {
+    font-size: 0.75rem;
+  }
+  
+  .item-description {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    white-space: pre-line;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  .skill-category {
+    font-weight: 600;
+  }
+  
+  

@@ -1,0 +1,199 @@
+/* Global Dark Mode Styling */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+   
+  /* Profile Container - Full Width */
+  .profile-container {
+    width: 85%;
+    max-width: 1400px;
+    margin: 50px auto;
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Title */
+  .profile-title {
+    color: #bb86fc;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect - Change color */
+  .profile-title:hover {
+    color: #d089ff;
+  }
+  
+  /* Profile Content Layout */
+  .profile-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px; /* Increased spacing */
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Sidebar - Profile Image & Basic Info */
+  .profile-sidebar {
+    width: 30%;
+    background: #252525;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+  
+  /* Hover effect - Change background */
+  .profile-sidebar:hover {
+    background: #2e2e2e;
+    transform: scale(1.03);
+  }
+  
+  /* Profile Image */
+  .profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #bb86fc;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect - Scale image */
+  .profile-image:hover {
+    transform: scale(1.1);
+    border-color: #d089ff;
+  }
+  
+  .profile-sidebar h2 {
+    font-size: 1.8rem;
+  }
+  
+  .username {
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect - Highlight username */
+  .username:hover {
+    color: #f0f0f0;
+  }
+  
+  /* Right Section - Details */
+  .profile-details {
+    width: 65%;
+    text-align: left;
+  }
+  
+  /* Grid Layout for User Details */
+  .details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px; /* Increased spacing */
+  }
+  
+  /* User details with hover effect */
+  .details-grid p {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  /* Hover effect - Highlight details */
+  .details-grid p:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+  }
+  
+  /* Metadata Sections */
+  .metadata {
+    margin-top: 40px;
+  }
+  
+  /* Metadata Title */
+  .metadata h3 {
+    color: #bb86fc;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect - Change color */
+  .metadata h3:hover {
+    color: #d089ff;
+  }
+  
+  /* JSON data display */
+  pre {
+    background: #2c2c2c;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Hover effect - Slight glow */
+  pre:hover {
+    background: #353535;
+  }
+  
+  /* Loading Message */
+  .loading {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20%;
+    color: #bb86fc;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .profile-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-sidebar, .profile-details {
+      width: 100%;
+    }
+  
+    .details-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

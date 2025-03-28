@@ -1,0 +1,202 @@
+.scholarship-card {
+    background-color: var(--card-light);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .dark .scholarship-card {
+    background-color: var(--card-dark);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .scholarship-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark .scholarship-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .scholarship-header {
+    margin-bottom: 1rem;
+  }
+  
+  .scholarship-category {
+    display: inline-block;
+    background-color: rgba(79, 70, 229, 0.1);
+    color: var(--primary-light);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dark .scholarship-category {
+    background-color: rgba(99, 102, 241, 0.2);
+    color: var(--primary-dark);
+  }
+  
+  .scholarship-header h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-light);
+    line-height: 1.4;
+  }
+  
+  .dark .scholarship-header h3 {
+    color: var(--text-dark);
+  }
+  
+  .scholarship-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .detail {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-light);
+  }
+  
+  .dark .detail {
+    color: var(--text-dark);
+  }
+  
+  .detail svg {
+    color: var(--primary-light);
+  }
+  
+  .dark .detail svg {
+    color: var(--primary-dark);
+  }
+  
+  .deadline.urgent {
+    color: #ef4444;
+  }
+  
+  .dark .deadline.urgent {
+    color: #f87171;
+  }
+  
+  .scholarship-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-light);
+    opacity: 0.9;
+    margin-bottom: 1rem;
+  }
+  
+  .dark .scholarship-description {
+    color: var(--text-dark);
+  }
+  
+  .read-more {
+    background: none;
+    border: none;
+    color: var(--primary-light);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+  }
+  
+  .dark .read-more {
+    color: var(--primary-dark);
+  }
+  
+  .scholarship-eligibility {
+    margin-bottom: 1.5rem;
+  }
+  
+  .scholarship-eligibility h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+  }
+  
+  .dark .scholarship-eligibility h4 {
+    color: var(--text-dark);
+  }
+  
+  .scholarship-eligibility ul {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+  }
+  
+  .scholarship-eligibility li {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+    color: var(--text-light);
+    opacity: 0.9;
+  }
+  
+  .dark .scholarship-eligibility li {
+    color: var(--text-dark);
+  }
+  
+  .scholarship-footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+  }
+  
+  .apply-button {
+    flex: 1;
+    background-color: var(--primary-light);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .dark .apply-button {
+    background-color: var(--primary-dark);
+  }
+  
+  .apply-button:hover {
+    background-color: #4338ca;
+  }
+  
+  .dark .apply-button:hover {
+    background-color: #4f46e5;
+  }
+  
+  .save-button {
+    background-color: transparent;
+    color: var(--text-light);
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .dark .save-button {
+    color: var(--text-dark);
+    border-color: var(--border-dark);
+  }
+  
+  .save-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .dark .save-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  
